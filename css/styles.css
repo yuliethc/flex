@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    background-color: lightpink;
+    height: 100vh;
+    flex-flow: column;
+    font-size: 16px;
+}
+
+header{
+    background-color: lightsalmon;
+    height: 4rem;
+}
+
+.content{
+    background-color: lightcoral;
+}
+
+footer{
+    background-color: palevioletred;
+}
