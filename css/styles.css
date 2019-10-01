@@ -16,10 +16,23 @@ header{
     height: 4rem;
 }
 
+.container{
+    display: flex;
+    height: inherit;
+}
+
 .content{
+    outline:1px solid  lightpink;
+    flex-grow: 1;
+}
+
+.aside{
     background-color: lightcoral;
+    flex-basis: 25%;
 }
 
 footer{
-    background-color: palevioletred;
+    background-color: palevioletred;    
+    height: 6rem;
+    margin-top: auto;
 }
