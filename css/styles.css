@@ -47,6 +47,17 @@ header{
 .aside{
     background-color: lightcoral;
     flex-basis: 25%;
+    display: flex;    
+    flex-flow: column;
+}
+.aside__child{
+    flex-grow:1;
+    outline:1px solid  lightpink;
+}
+.aside__child--center{
+    flex-grow:0.5;
+    background-color: white;
+    border:2px solid  lightcoral;
 }
 
 footer{
